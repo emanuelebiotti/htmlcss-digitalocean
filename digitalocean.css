@@ -44,6 +44,32 @@ nav p {
   background-color: #F3F5F9;
   color:black;
 }
+.grey h5 {
+  color:grey;
+}
+.mt-50 {
+  margin-top:50px;
+}
+.mb-50 {
+  margin-bottom:50px;
+}
+.mt-150 {
+  margin-top:150px;
+}
+.mb-150 {
+  margin-bottom:150px;
+}
+img {
+  width:100%;
+  height:auto;
+}
+.grey a {
+  font-weight: bold;
+}
+.grey a:hover {
+  text-decoration: none;
+  color:blue;
+}
 .darkblue {
   width:100%;
   background-color: #020D28;
