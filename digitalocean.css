@@ -63,6 +63,57 @@ nav p a:hover {
   background-position: bottom;
   color:white;
 }
+.register {
+  width:70%;
+  height: 450px;
+  background-color: #F3F5F9;
+  color:black;
+  border-radius: 8px;
+  padding:10px 20px;
+}
+.deploy {
+  font-size: 250%;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.register input {
+  width:85%;
+  height:50px;
+}
+.create {
+  padding:20px 0;
+}
+.create a {
+  color:white;
+  font-size: 120%;
+  font-weight: bold;
+  padding:20px 65px;
+  background-color: #0BB764;
+  border:1px solid #0BB764;
+  border-radius: 5px;
+}
+.signup {
+  padding:20px 0;
+}
+.signup a {
+  color:grey;
+  font-size: 120%;
+  font-weight: bold;
+  padding:20px 68px;
+  background-color: #F3F5F9;
+  border:1px solid grey;
+  border-radius: 5px;
+}
+.register a:hover {
+  text-decoration: none;
+}
+.terms {
+  padding: 10px;
+}
+.terms span {
+  text-decoration: underline;
+}
 .world {
   width:100%;
   background-image: url("https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvYXNzZXRzL2M5ZDc2MDE5ODNhZTRmNTRiNF8yNjJlYjBjOWU5ZDk3MDQ0OTRfTmV3IFZpZXdzNzkuanBnIl0sWyJwIiwiY29udmVydCIsIiJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA4MSAtYXV0by1vcmllbnQiXSxbInAiLCJ0aHVtYiIsIjEyODB4PiJdXQ/262eb0c9e9d9704494_New%20Views79.jpg");
@@ -135,14 +186,17 @@ a.account:hover {
   background-color: #020D28;
   color:white;
 }
+footer p {
+  color:grey;
+}
 footer ul li {
   list-style-type: none;
   padding:4px;
 }
-footer ul li a {
+footer a {
   color:grey;
 }
-footer ul li a:hover {
+footer a:hover {
   color:white;
   text-decoration: none;
 }
