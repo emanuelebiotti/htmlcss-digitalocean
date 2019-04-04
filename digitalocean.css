@@ -51,6 +51,12 @@ nav p a:hover {
   background-color: white;
   color:black;
 }
+.welcome {
+  font-size: 70px;
+}
+.explain {
+  font-size: 20px;
+}
 .blue {
   width:100%;
   background-color: blue;
@@ -70,11 +76,23 @@ nav p a:hover {
 .mt-50 {
   margin-top:50px;
 }
-.mb-50 {
-  margin-bottom:50px;
+.mt-80 {
+  margin-top:80px;
+}
+.mt-100 {
+  margin-top:100px;
 }
 .mt-150 {
   margin-top:150px;
+}
+.mb-50 {
+  margin-bottom:50px;
+}
+.mb-80 {
+  margin-bottom:80px;
+}
+.mb-100 {
+  margin-bottom:80px;
 }
 .mb-150 {
   margin-bottom:150px;
@@ -83,12 +101,27 @@ img {
   width:100%;
   height:auto;
 }
+.grey img {
+  width:100%;
+  padding:5%;
+}
 .grey a {
   font-weight: bold;
 }
 .grey a:hover {
   text-decoration: none;
   color:blue;
+}
+.account {
+  padding:10px 20px;
+  border:1px solid white;
+  border-radius: 5px;
+  background-color: white;
+  color:blue;
+  font-weight: bold;
+}
+a.account:hover {
+  text-decoration: none;
 }
 .darkblue {
   width:100%;
