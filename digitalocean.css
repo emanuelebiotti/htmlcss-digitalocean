@@ -5,21 +5,50 @@
   z-index: 999;
 }
 .menu .row {
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #dee1e5;
 }
 .menu ul li {
   display:inline-block;
+  margin-left: 18px;
+  font-size: 85%;
+  font-weight: 450;
 }
 .menu ul {
 float:right;
 margin-right: 20px;
 }
+.menu a {
+  color:grey;
+}
+.menu a:hover {
+  text-decoration: none;
+  color:blue;
+}
+.new {
+  font-size: 75%;
+  border:1px solid #00D7D2;
+  border-radius: 5px;
+  width:45px;
+  padding: 2px 8px;
+  background-color: #00D7D2;
+}
+.news {
+  font-size: 85%;
+  font-weight: 450;
+}
+.logo {
+
+}
+.white .row {
+  margin-top:5px;
+}
 nav {
-  top:40px;
+  top:45px;
   position:fixed;
   z-index: 999;
 }
 nav ul li {
+  list-style-type: none;
   display:inline-block;
   padding:25px;
 }
