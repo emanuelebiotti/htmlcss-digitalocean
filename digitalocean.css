@@ -23,8 +23,28 @@ nav ul li {
   display:inline-block;
   padding:25px;
 }
+nav ul li a {
+  color:black;
+}
+nav ul li a:hover {
+  color:blue;
+  text-decoration: none;
+}
 nav p {
   padding:25px;
+  position: relative;
+  left:70px;
+}
+nav p a {
+  border:1px solid blue;
+  border-radius: 5px;
+  padding:10px 15px;
+  font-weight: bold;
+}
+nav p a:hover {
+  text-decoration: none;
+  color:white;
+  background-color: blue;
 }
 .white {
   width:100%;
