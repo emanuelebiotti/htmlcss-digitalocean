@@ -24,6 +24,9 @@ margin-right: 20px;
   text-decoration: none;
   color:blue;
 }
+.menu .options a:hover {
+  color:grey;
+}
 .new {
   font-size: 75%;
   border:1px solid #00D7D2;
@@ -143,6 +146,10 @@ nav p a:hover {
 .terms span {
   text-decoration: underline;
 }
+.fas {
+  color:#5897ef;
+  margin-bottom: 15px;
+}
 .world {
   width:100%;
   background-image: url("https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvYXNzZXRzL2M5ZDc2MDE5ODNhZTRmNTRiNF8yNjJlYjBjOWU5ZDk3MDQ0OTRfTmV3IFZpZXdzNzkuanBnIl0sWyJwIiwiY29udmVydCIsIiJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA4MSAtYXV0by1vcmllbnQiXSxbInAiLCJ0aHVtYiIsIjEyODB4PiJdXQ/262eb0c9e9d9704494_New%20Views79.jpg");
@@ -228,4 +235,23 @@ footer a {
 footer a:hover {
   color:white;
   text-decoration: none;
+}
+footer ul.social  {
+  padding-inline-start: 0;
+}
+footer ul.social li {
+  list-style-type: none;
+  display:inline-block;
+}
+footer .fas {
+  color:grey;
+}
+footer .fab {
+  color:grey
+}
+footer .fab:hover {
+  color:white;
+}
+footer .fas:hover {
+  color:white;
 }
