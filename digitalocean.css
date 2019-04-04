@@ -217,6 +217,16 @@ img {
 a.account:hover {
   text-decoration: none;
 }
+.companies ul {
+  list-style-type: none;
+}
+.companies ul li{
+  display:inline-block;
+}
+.companies ul li img {
+  width:150px;
+  height:auto;
+}
 .darkblue {
   width:100%;
   background-color: #020D28;
