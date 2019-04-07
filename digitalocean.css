@@ -265,3 +265,21 @@ footer .fab:hover {
 footer .fas:hover {
   color:white;
 }
+
+@media screen and (max-width: 768px) {
+
+  .menu .row p {
+    display:none;
+
+  }
+
+  .options {
+
+    display:none;
+  }
+
+  nav {
+    top:0;
+  }
+
+}
