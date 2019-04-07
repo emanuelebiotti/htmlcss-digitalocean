@@ -349,3 +349,36 @@ footer .fas:hover {
   }
 
   }
+
+  @media screen and (min-width:992px) and (max-width:1200px) {
+
+    .menu .row p {
+      display:none;
+    }
+    .options {
+      display:none;
+    }
+    nav {
+      top:0;
+    }
+    .register {
+      width:100%;
+      height:500px;
+    }
+    .create a , .signup a {
+      font-size: 80%;
+    }
+    .blue a.account {
+      font-size: 200%;
+    }
+    .terms span a {
+      color:yellow;
+    }
+    .world .row , .white .row , .grey .row , footer .row {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    }
+
+  }
