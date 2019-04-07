@@ -298,6 +298,9 @@ footer .fas:hover {
     font-size: 130%;
     color:white;
   }
+  .terms span a {
+    color:yellow;
+  }
   .table {
     margin-top: 0;
     margin-bottom: 0;
@@ -306,6 +309,25 @@ footer .fas:hover {
     margin-top: 0;
     margin-bottom: 0;
   }
+}
 
+@media screen and (min-width:768px) and (max-width:992px) {
 
+.terms {
+  margin-top:100px;
+  font-size: 300%;
+  color:white;
+}
+.register {
+  height:600px;
+}
+.create a , .signup a {
+  font-size: 400%;
+}
+.blue a.account {
+  font-size: 400%;
+}
+.terms span a {
+  color:yellow;
+}
 }
