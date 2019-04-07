@@ -282,4 +282,29 @@ footer .fas:hover {
     top:0;
   }
 
+  .welcome {
+    margin-top: 150px;
+  }
+
+  .create a {
+    padding:0;
+    margin:0;
+    width:100px;
+  }
+
+  .signup a {
+    padding:0;
+    margin:0;
+    width:100px;
+  }
+
+  .register {
+    width:100%
+  }
+
+  .terms {
+    margin-top: 40px;
+    font-size: 130%;
+    color:white;
+  }
 }
